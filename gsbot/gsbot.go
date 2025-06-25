@@ -22,9 +22,9 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/paralin/go-steam"
-	"github.com/paralin/go-steam/netutil"
-	"github.com/paralin/go-steam/protocol"
+	"github.com/anovokreschenov/go-steam"
+	"github.com/anovokreschenov/go-steam/netutil"
+	"github.com/anovokreschenov/go-steam/protocol"
 	"github.com/davecgh/go-spew/spew"
 )
 

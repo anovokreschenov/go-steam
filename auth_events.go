@@ -1,9 +1,9 @@
 package steam
 
 import (
-	"github.com/paralin/go-steam/protocol/protobuf"
-	. "github.com/paralin/go-steam/protocol/steamlang"
-	"github.com/paralin/go-steam/steamid"
+	"github.com/anovokreschenov/go-steam/protocol/protobuf"
+	. "github.com/anovokreschenov/go-steam/protocol/steamlang"
+	"github.com/anovokreschenov/go-steam/steamid"
 )
 
 type LoggedOnEvent struct {

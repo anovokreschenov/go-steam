@@ -2,8 +2,8 @@ package socialcache
 
 import (
 	"errors"
-	. "github.com/paralin/go-steam/protocol/steamlang"
-	"github.com/paralin/go-steam/steamid"
+	. "github.com/anovokreschenov/go-steam/protocol/steamlang"
+	"github.com/anovokreschenov/go-steam/steamid"
 	"sync"
 )
 
