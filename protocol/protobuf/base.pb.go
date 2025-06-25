@@ -6,7 +6,7 @@ package protobuf
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import google_protobuf "github.com/golang/protobuf/protoc-gen-go/descriptor"
+// import google_protobuf "github.com/golang/protobuf/protoc-gen-go/descriptor"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal
@@ -545,41 +545,41 @@ func (m *CMsgAppRights) GetBroadcastLive() bool {
 	return false
 }
 
-var E_MsgpoolSoftLimit = &proto.ExtensionDesc{
-	ExtendedType:  (*google_protobuf.MessageOptions)(nil),
-	ExtensionType: (*int32)(nil),
-	Field:         50000,
-	Name:          "msgpool_soft_limit",
-	Tag:           "varint,50000,opt,name=msgpool_soft_limit,json=msgpoolSoftLimit,def=32",
-	Filename:      "steammessages_base.proto",
-}
+// var E_MsgpoolSoftLimit = &proto.ExtensionDesc{
+// 	ExtendedType:  (*google_protobuf.MessageOptions)(nil),
+// 	ExtensionType: (*int32)(nil),
+// 	Field:         50000,
+// 	Name:          "msgpool_soft_limit",
+// 	Tag:           "varint,50000,opt,name=msgpool_soft_limit,json=msgpoolSoftLimit,def=32",
+// 	Filename:      "steammessages_base.proto",
+// }
 
-var E_MsgpoolHardLimit = &proto.ExtensionDesc{
-	ExtendedType:  (*google_protobuf.MessageOptions)(nil),
-	ExtensionType: (*int32)(nil),
-	Field:         50001,
-	Name:          "msgpool_hard_limit",
-	Tag:           "varint,50001,opt,name=msgpool_hard_limit,json=msgpoolHardLimit,def=384",
-	Filename:      "steammessages_base.proto",
-}
+// var E_MsgpoolHardLimit = &proto.ExtensionDesc{
+// 	ExtendedType:  (*google_protobuf.MessageOptions)(nil),
+// 	ExtensionType: (*int32)(nil),
+// 	Field:         50001,
+// 	Name:          "msgpool_hard_limit",
+// 	Tag:           "varint,50001,opt,name=msgpool_hard_limit,json=msgpoolHardLimit,def=384",
+// 	Filename:      "steammessages_base.proto",
+// }
 
-var E_ForcePhpGeneration = &proto.ExtensionDesc{
-	ExtendedType:  (*google_protobuf.FileOptions)(nil),
-	ExtensionType: (*bool)(nil),
-	Field:         50000,
-	Name:          "force_php_generation",
-	Tag:           "varint,50000,opt,name=force_php_generation,json=forcePhpGeneration,def=0",
-	Filename:      "steammessages_base.proto",
-}
+// var E_ForcePhpGeneration = &proto.ExtensionDesc{
+// 	ExtendedType:  (*google_protobuf.FileOptions)(nil),
+// 	ExtensionType: (*bool)(nil),
+// 	Field:         50000,
+// 	Name:          "force_php_generation",
+// 	Tag:           "varint,50000,opt,name=force_php_generation,json=forcePhpGeneration,def=0",
+// 	Filename:      "steammessages_base.proto",
+// }
 
-var E_PhpOutputAlwaysNumber = &proto.ExtensionDesc{
-	ExtendedType:  (*google_protobuf.FieldOptions)(nil),
-	ExtensionType: (*bool)(nil),
-	Field:         50020,
-	Name:          "php_output_always_number",
-	Tag:           "varint,50020,opt,name=php_output_always_number,json=phpOutputAlwaysNumber,def=0",
-	Filename:      "steammessages_base.proto",
-}
+// var E_PhpOutputAlwaysNumber = &proto.ExtensionDesc{
+// 	ExtendedType:  (*google_protobuf.FieldOptions)(nil),
+// 	ExtensionType: (*bool)(nil),
+// 	Field:         50020,
+// 	Name:          "php_output_always_number",
+// 	Tag:           "varint,50020,opt,name=php_output_always_number,json=phpOutputAlwaysNumber,def=0",
+// 	Filename:      "steammessages_base.proto",
+// }
 
 func init() {
 	proto.RegisterType((*CMsgProtoBufHeader)(nil), "CMsgProtoBufHeader")
@@ -588,13 +588,13 @@ func init() {
 	proto.RegisterType((*CMsgAuthTicket)(nil), "CMsgAuthTicket")
 	proto.RegisterType((*CCDDBAppDetailCommon)(nil), "CCDDBAppDetailCommon")
 	proto.RegisterType((*CMsgAppRights)(nil), "CMsgAppRights")
-	proto.RegisterExtension(E_MsgpoolSoftLimit)
-	proto.RegisterExtension(E_MsgpoolHardLimit)
-	proto.RegisterExtension(E_ForcePhpGeneration)
-	proto.RegisterExtension(E_PhpOutputAlwaysNumber)
+	// proto.RegisterExtension(E_MsgpoolSoftLimit)
+	// proto.RegisterExtension(E_MsgpoolHardLimit)
+	// proto.RegisterExtension(E_ForcePhpGeneration)
+	// proto.RegisterExtension(E_PhpOutputAlwaysNumber)
 }
 
-func init() { proto.RegisterFile("steammessages_base.proto", base_fileDescriptor0) }
+// func init() { proto.RegisterFile("steammessages_base.proto", base_fileDescriptor0) }
 
 var base_fileDescriptor0 = []byte{
 	// 1356 bytes of a gzipped FileDescriptorProto
